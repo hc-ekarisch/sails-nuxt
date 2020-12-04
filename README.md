@@ -14,7 +14,7 @@ Prerequisites as far as I know:
 and any other prerequisites of sails, nuxt and vuetify
 the easiest way to give it a spin on dev mode is running it as the following
 
-- `git clone https://github.com/AngelMunoz/sails-nuxt.git`
+- `git clone https://github.com/hc-ekarisch/sails-nuxt.git`
 - `npm install`
 - `NODE_ENV=development node app.js --log.level=sily`
 
@@ -27,23 +27,6 @@ just press <kbd>F5</kbd> *(after npm install of course)* and that should get you
 ### Production
 After you have followed [Sails's Team Recomendations for production](https://sailsjs.com/documentation/concepts/deployment) just
 run the `npm start` command and this should just work.
-
-
-# Recent Updates:
-- Updated dependencies and fixed a lot of vuetify deprecations as well as fixing some errors on user update in the client side [2019-10-21]. 
-- Updated Sails/Nuxt/Vuetify and dependencies [2018-10-25]. 
-- Updated Adding cross-env and "start" npm command as production [2018-04-11]. 
-- Updated Sails, Vuetify and the rest of the dependencies, Also added a scroll bar on the chat window demo [2018-04-11]. 
-- Updated Vuetify and dependencies [2018-02-22]. 
-- Updated nuxt and dependencies [2018-01-30]. thanks to [@iworb](https://github.com/Iworb) for pointing out the correct versions
-- ~Updated nuxt and dependencies [2018-01-11]~ Will be reverting to RC11 because of a bunch of errors, Looking at it.
-- Adding Web Sockets Sample! [2017-12-05]
-
-    Thanks to [Vue Socket.io] we can now show a small "Sample" of a chat (sorry for that awfulness of my bad ui/ux skills but it should show the point)
-
-### Extras
-Don't forget there's also a [typescript branch](https://github.com/AngelMunoz/sails-nuxt/tree/typescript-controllers)
-you should be able to use typescript in the controllers as well as on the helpers, that can give you a headstart
 
 
 ### Sails Links
